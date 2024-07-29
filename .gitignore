@@ -22,3 +22,5 @@ build/
 
 # 忽略所有以 __pycache__ 命名的文件夹（在 Python 项目中常见）
 __pycache__/
+
+.vscode
