@@ -5,7 +5,7 @@
 ## 全局安装
 
 ```ts
-npm i -g fir
+npm i -g file-import-reference
 ```
 
 ## 使用
