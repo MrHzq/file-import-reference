@@ -1,6 +1,6 @@
 {
   "name": "file-import-reference",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "find file import reference",
   "main": "bin/fir.js",
   "bin": {
