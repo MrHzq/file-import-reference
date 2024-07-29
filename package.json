@@ -16,9 +16,6 @@
   "dependencies": {
     "chalk": "4",
     "commander": "^12.1.0",
-    "fs-extra": "^11.2.0",
-    "inquirer": "^8",
-    "ora": "^5.4.1",
-    "path": "^0.12.7"
+    "ora": "^5.4.1"
   }
 }
