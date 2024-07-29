@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "npmPublish": "npm publish"
+    "npmPublish": "npm version patch && npm publish"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,6 @@
     "path": "^0.12.7"
   },
   "gitHooks": {
-    "pre-push": "npmPublish"
+    "pre-push": "pnpm npmPublish"
   }
 }
