@@ -1,0 +1,23 @@
+{
+  "name": "fir",
+  "version": "1.0.0",
+  "description": "find file import reference",
+  "main": "bin/fir.js",
+  "bin": {
+    "fir": "bin/fir.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8",
+    "ora": "^5.4.1",
+    "path": "^0.12.7"
+  }
+}
