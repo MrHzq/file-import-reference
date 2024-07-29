@@ -7,7 +7,8 @@
     "fir": "bin/fir.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npmPublish": "npm publish"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,8 @@
     "inquirer": "^8",
     "ora": "^5.4.1",
     "path": "^0.12.7"
+  },
+  "gitHooks": {
+    "pre-push": "npmPublish"
   }
 }
