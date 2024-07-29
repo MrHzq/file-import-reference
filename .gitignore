@@ -1,0 +1,24 @@
+# 忽略所有的.log 文件
+*.log
+
+# 忽略以.tmp 结尾的文件
+*.tmp
+
+# 忽略名为 temp 的文件夹及其内容
+temp/
+
+# 忽略 node_modules 文件夹
+node_modules/
+
+# 忽略所有的.DS_Store 文件（在 macOS 系统中常见）
+.DS_Store
+
+# 忽略构建生成的文件夹，例如 dist 、build 等
+dist/
+build/
+
+# 忽略所有的.env 文件（通常包含环境变量配置）
+.env
+
+# 忽略所有以 __pycache__ 命名的文件夹（在 Python 项目中常见）
+__pycache__/
