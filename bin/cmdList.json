@@ -1,0 +1,7 @@
+[
+  {
+    "cmd": "fileImportReference",
+    "alias": "fir",
+    "_description": "查找文件引用关系"
+  }
+]

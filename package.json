@@ -2,9 +2,9 @@
   "name": "file-import-reference",
   "version": "1.1.1",
   "description": "find file import reference",
-  "main": "bin/fir.js",
+  "main": "bin/index.js",
   "bin": {
-    "fir": "bin/fir.js"
+    "fir": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,11 @@
   "dependencies": {
     "chalk": "4",
     "commander": "^12.1.0",
-    "ora": "^5.4.1"
+    "dayjs": "^1.11.12",
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.8",
+    "inquirer": "^8",
+    "ora": "^5.4.1",
+    "path": "^0.12.7"
   }
 }
